@@ -17,6 +17,7 @@
 
 ## 1. Pinouts nối với vi điều khiển 
 - Thường có 4 chân chính:
+
 |Pin| Tên khác|Chức năng|
 |---|---------|---------|
 |VCC| 2.6V - 5.5V | Cấp nguồn cho HX711 (thường 3.3V - 5V)|
@@ -27,7 +28,7 @@
 ### Serial Interface (Giao thức nối tiếp)
 - Chân PD_SCK và DOUT được dùng để truy xuất dữ liệu, lựa chọn đầu vào, độ lợi (Gain) và điều chỉnh nguồn tiêu thụ
 
-![Images/TimingDiagram.png]()
+![Images/TimingDiagram.png](Alt_text)
 
 - Giải thích thêm về luồng hoạt động: 
 	- Khi dữ liệu chưa sẵn sàng để truy xuất, tín hiệu đầu ra DOUT sẽ ở mức HIGH. Lúc này tín hiệu xung nhịp PD_SCK phải duy trì ở mức LOW.

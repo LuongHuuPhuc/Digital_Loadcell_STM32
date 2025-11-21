@@ -28,7 +28,7 @@
 ### Serial Interface (Giao thức nối tiếp)
 - Chân PD_SCK và DOUT được dùng để truy xuất dữ liệu, lựa chọn đầu vào, độ lợi (Gain) và điều chỉnh nguồn tiêu thụ
 
-![Images/TimingDiagram.png](Alt_text)
+![Alt_text](Images/TimingDiagram.png)
 
 - Giải thích thêm về luồng hoạt động: 
 	- Khi dữ liệu chưa sẵn sàng để truy xuất, tín hiệu đầu ra DOUT sẽ ở mức HIGH. Lúc này tín hiệu xung nhịp PD_SCK phải duy trì ở mức LOW.
